@@ -1,0 +1,82 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+/*fin del reset css3*/
+body {
+font-size: 52%;
+
+}
+h1 {
+    font-family: Montserrat;
+    font-size: 100px;
+    color: rgb(253, 253, 255);
+    text-align: center;
+    background-color:rgb(53, 102, 148);
+   border-radius: 8px;
+    width: 45%;
+    margin:15px auto;
+    
+  }
+
+  h2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    margin:10px auto;
+    color: rgb(253, 253, 255);
+    text-align: center;
+    background-color:rgb(125, 221, 157);
+   border-radius: 8px;
+    width: 30%;
+    
+  }
+  h3 {
+    font-family: Montserrat;
+    font-size: 5px;
+    color: rgb(253, 253, 255);
+    text-align: center;
+    background-color:rgb(53, 102, 148);
+   border-radius: 8px;
+    width: 20%;
+    margin:8px auto;
+  }
+  figure {
+   
+    margin-left: center;
+	  margin-right: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin:10px center;
+    
+    border-radius: 15px;
+    
+  }
+  img{
+    display:block;
+    margin:auto;
+    border-radius: 10px;
+    }
+   
+  p {
+    background-color: rgba(141, 154, 226, 0.363);
+    font-family: Montserrat;
+    font-size: 15px;
+    color: rgb(253, 253, 255);
+    text-align: center;
+    margin:10px auto;
+    width: 80%;
+    border-radius: 20px;
+  }
+  
+  body{
+    background-image: url("pasto_2560x1600_xtrafondos.com.jpg");
+    background-repeat: repeat-y;
+  }
